@@ -1,0 +1,122 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "agePerson",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					}
+				],
+				"name": "createPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "favNum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "setFavNum",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/override.sol": "Override"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/override.sol": {
+			"keccak256": "0x324ca36cc5bcc36b3c068837b3e5a9e2b7a3391a51d184a257415dbece92747e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b0973a8145f900c6fbf511f0d2faaaf3ff895cb97d522c92dabe6eabd3d2ccc0",
+				"dweb:/ipfs/QmQo9h3fKJCwAtHbweNzzSjHGek8rTGZ3EA9WMnDVDb3WS"
+			]
+		},
+		"contract/simple.sol": {
+			"keccak256": "0xef1f8a71d864de7c77b16c18344d61112e2960d91c1d6fff22fc589f0cc16f55",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://aa9c44feb0f72b815210057df797f39872241adc48ca7c659f39f27001888a3c",
+				"dweb:/ipfs/QmNSfbBuwVqvtEJHTqcFMu7D7vZuF8nRgnoMPtM4fWn7b6"
+			]
+		}
+	},
+	"version": 1
+}

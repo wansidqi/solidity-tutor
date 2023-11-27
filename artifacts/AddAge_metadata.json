@@ -1,0 +1,122 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "agePerson",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					}
+				],
+				"name": "createPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "favNum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "setFavNum",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"alterFavNum.sol": "AddAge"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"alterFavNum.sol": {
+			"keccak256": "0x29ad234efa4ce6719446c5a31e1300d67fd2e602051ddcc93c592bf88d2834f7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6d61e19db9ab05b4106108e89a41640cc9b12003710bf4a4e2497ac3b60329ee",
+				"dweb:/ipfs/QmPaYfZk1tN8Ghs6tEQ1HTPNv7P4iezk3x7nk2WSjdu1mC"
+			]
+		},
+		"simple.sol": {
+			"keccak256": "0xef1f8a71d864de7c77b16c18344d61112e2960d91c1d6fff22fc589f0cc16f55",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://aa9c44feb0f72b815210057df797f39872241adc48ca7c659f39f27001888a3c",
+				"dweb:/ipfs/QmNSfbBuwVqvtEJHTqcFMu7D7vZuF8nRgnoMPtM4fWn7b6"
+			]
+		}
+	},
+	"version": 1
+}

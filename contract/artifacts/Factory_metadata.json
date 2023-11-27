@@ -1,0 +1,74 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "deploySimpleContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "simple",
+				"outputs": [
+					{
+						"internalType": "contract Simple",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/factory.sol": "Factory"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/factory.sol": {
+			"keccak256": "0x846f14bcb3bb75cceb3bc26574996d2b469fcc4534919fe71f059954710baab9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a18519c319627e5d3097bc799d582b23f6449dfa57c84e3d7e78c51f70c9dfce",
+				"dweb:/ipfs/QmYNo4THticT3RUUVtk5YsuhZePD5BkxQ391tgRNBCtbsG"
+			]
+		},
+		"contract/simple.sol": {
+			"keccak256": "0xef1f8a71d864de7c77b16c18344d61112e2960d91c1d6fff22fc589f0cc16f55",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://aa9c44feb0f72b815210057df797f39872241adc48ca7c659f39f27001888a3c",
+				"dweb:/ipfs/QmNSfbBuwVqvtEJHTqcFMu7D7vZuF8nRgnoMPtM4fWn7b6"
+			]
+		}
+	},
+	"version": 1
+}
